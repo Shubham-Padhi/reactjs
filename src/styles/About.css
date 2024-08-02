@@ -1,0 +1,121 @@
+/* src/About.css */
+
+:root {
+    --primary-color: #0b0b0b;
+    --text-color: #030202;
+   
+    --header-color: #2a2a72;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+   
+  
+  }
+  .about-container h1 {
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .about-container h1::after {
+    content: '';
+    background:#4f46e5;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  
+  .about-container {
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: var(--text-color);
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-header h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+  }
+  
+  .about-header p {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+  }
+  
+  .about-content {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-content h2 {
+    color: var(--header-color);
+    margin-top: 20px;
+  }
+  
+  .about-content p {
+    line-height: 1.6;
+  }
+  
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: inline;
+    object-fit: cover;
+  }
+  
+  .team-member h3 {
+    color: var(--header-color);
+    margin: 10px 0 5px;
+  }
+  
+  .team-member p {
+    color: var(--primary-color);
+  }
+  
+  @media (max-width: 768px) {
+    .about-header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .about-header p {
+      font-size: 1.2rem;
+    }
+  
+    .team-member {
+      flex: 1 1 100%;
+      margin: 10px 0;
+    }
+  }
+  
