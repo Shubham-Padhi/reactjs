@@ -1,4 +1,4 @@
-/* src/About.css */
+src/About.css
 
 :root {
     --primary-color: #0b0b0b;
@@ -103,6 +103,51 @@
   .team-member p {
     color: var(--primary-color);
   }
+
+
+
+  /* src/styles/Modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: rgb(185, 185, 185);
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #38597d;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background: #2663a4;
+}
+
   
   @media (max-width: 768px) {
     .about-header h1 {

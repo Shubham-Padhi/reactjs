@@ -18,7 +18,7 @@ const Service = () => {
           <p class="service_para">
          We will provide service of Website design using React JS & Pure CSS3 with some well know library.
           </p>
-               <a href="mailto:blogtriggers@gmail.com" class="service_btn"> Contact us </a>
+               <a href="mailto:shubhampadhi404@gmail.com" class="service_btn"> Contact us </a>
         </div>
         <div class="service">
           <i class="fas fa-chart-line"></i>
@@ -26,17 +26,17 @@ const Service = () => {
           <p class="service_para">
             In SEO Service we will provide you OnPage SEO, OffPage SEO, Technical SEO etc...
           </p>
-               <a href="mailto:blogtriggers@gmail.com" class="service_btn"> Contact us </a>
+               <a href="mailto:shubhampadhi404@gmail.com" class="service_btn"> Contact us </a>
         </div>
        
         
         <div class="service">
           <i class="fas fa-mobile-alt"></i>
-          <h2 class="service_heading">App Development Using Kodular</h2>
+          <h2 class="service_heading">App Development</h2>
           <p class="service_para">
             In Application service we will provide you to make an application using kodular website.
           </p>
-          <a href="mailto:blogtriggers@gmail.com" class="service_btn"> Contact us </a>
+          <a href="mailto:shubhampadhi404@gmail.com" class="service_btn"> Contact us </a>
         </div>
         
        

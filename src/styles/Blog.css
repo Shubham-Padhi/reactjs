@@ -34,7 +34,7 @@
   }
   
   .blog-post {
-    background-image: linear-gradient(-200deg, #fbfeff 0%, #3d3b61 100%);
+  
 	color: var(--fg);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(9, 9, 9, 0.1);

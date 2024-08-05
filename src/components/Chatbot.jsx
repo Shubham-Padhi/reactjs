@@ -30,7 +30,7 @@ const Chatbot = () => {
               <div key={index} className={`message ${message.user}`}>
                 {message.text}
               </div>
-            ))}
+             ))}
           </div>
           <div className="input-area">
             <input
